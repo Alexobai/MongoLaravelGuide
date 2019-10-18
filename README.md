@@ -8,11 +8,9 @@ MONGO_DB_DATABASE=mongocrud\
 MONGO_DB_USERNAME=\
 MONGO_DB_PASSWORD=__
 1. Add these in database.php:\
-'connections' => [\
+'connections' => [
 
-
-        ......\
-     'mongodb' => [\
+     'mongodb' => [ \
             'driver'   => 'mongodb',\
             'host'     => env('MONGO_DB_HOST', 'localhost'),\
             'port'     => env('MONGO_DB_PORT', 27017),\
