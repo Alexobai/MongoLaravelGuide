@@ -8,7 +8,7 @@ MONGO_DB_DATABASE=mongocrud
 MONGO_DB_USERNAME=
 MONGO_DB_PASSWORD=__
 1. Add these in database.php:
-__'connections' => [
+##'connections' => [
 
 
         ......
@@ -21,6 +21,6 @@ __'connections' => [
             'password' => env('MONGO_DB_PASSWORD'),
             'options'  => []
         ],
-    ]__
+    ]##
 1. do: __composer require jenssegers/mongodb__
 1. Ready to add models and other things
