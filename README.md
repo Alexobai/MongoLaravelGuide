@@ -1,6 +1,6 @@
 # MongoLaravelGuide
 
-1. Creating a new project: __composer create-project --prefer-dist laravel/laravel laravelmongodb__
+1. Creating a new project: composer create-project --prefer-dist laravel/laravel MongoIns "5.8.*"
 1. Edit .env file: \
 __MONGO_DB_HOST=127.0.0.1\
 MONGO_DB_PORT=27017\
