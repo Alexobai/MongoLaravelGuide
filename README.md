@@ -22,19 +22,19 @@ MONGO_DB_PASSWORD=__
     ]
 1. do: __composer require jenssegers/mongodb__
 1. add: __Jenssegers\Mongodb\MongodbServiceProvider::class__ in config/app/php
-1. namespace App;\
+1. namespace App; \
 
-use Illuminate\Notifications\Notifiable;\
-use Jenssegers\Mongodb\Auth\User as Authenticatable;\
+use Illuminate\Notifications\Notifiable; \
+use Jenssegers\Mongodb\Auth\User as Authenticatable; \
 
 
-class User extends Authenticatable\
-{\
-    use Notifiable;\
+class User extends Authenticatable \
+{ \
+    use Notifiable; \
 
-    protected $connection = 'mongodb';\
+    protected $connection = 'mongodb'; \
 in User model
-1.   $table->index('id');\
-     $table->unique('email');\
+1.   $table->index('id'); \
+     $table->unique('email'); \
      in user table migrate
            
