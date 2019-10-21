@@ -31,7 +31,6 @@ use Jenssegers\Mongodb\Auth\User as Authenticatable;
 class User extends Authenticatable 
 { \
     use Notifiable; 
-
     protected $connection = 'mongodb'; 
 in User model
 1.   $table->index('id');\
