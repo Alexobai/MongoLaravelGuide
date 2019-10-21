@@ -37,3 +37,5 @@ in User model
      $table->unique('email');\
      in user table migrate
            
+1. The dynamic variable in routes are the parameter in controller
+1. MongoDB use different id when register
