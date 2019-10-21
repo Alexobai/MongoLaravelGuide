@@ -35,6 +35,6 @@ class User extends Authenticatable
     protected $connection = 'mongodb'; 
 in User model
 1.   $table->index('id');\
-     $table->unique('email'); 
+     $table->unique('email');\
      in user table migrate
            
