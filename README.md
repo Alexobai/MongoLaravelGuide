@@ -41,4 +41,5 @@ in User model
 1. MongoDB use different id when register
 1. Do not use name as id in the table migration definition
 1. remember to include __use Jenssegers\Mongodb\Eloquent\Model as Eloquent;__ in Model
+1. __php artisan storage:link__ used for access image from our private dir to webpage
 
