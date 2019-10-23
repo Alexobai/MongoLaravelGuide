@@ -44,3 +44,4 @@ in User model
 1. __php artisan storage:link__ used for access image from our private dir to webpage
 1. _id is a funtional id, when you call other table from the _id table, use name like PointedToModelName_id. Or it will not work.
 1. when calling like user()->profile; these names are the function name in the model;
+1. composer require intervention/image is a library used for image invervetion
