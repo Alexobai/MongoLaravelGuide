@@ -42,4 +42,5 @@ in User model
 1. Do not use name as id in the table migration definition
 1. remember to include __use Jenssegers\Mongodb\Eloquent\Model as Eloquent;__ in Model
 1. __php artisan storage:link__ used for access image from our private dir to webpage
-1. _id is a funtional id, when you call other table from the _id table, use name like table_id. Or it will not work.
+1. _id is a funtional id, when you call other table from the _id table, use name like PointedToModelName_id. Or it will not work.
+1. when calling like user()->profile; these names are the function name in the model;
